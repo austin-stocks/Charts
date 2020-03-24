@@ -1,19 +1,22 @@
-echo "Addting files that start with [ABCD]..."
-git add [ABCD]*jpg
-echo "Addting files that start with [EFGH]..."
-git add [EFGH]*jpg
-echo "Addting files that start with [IJKL]..."
-git add [IJKL]*jpg
-echo "Addting files that start with [MNOP]..."
-git add [MNOP]*jpg
-echo "Addting files that start with [QRST]..."
-git add [QRST]*jpg
-echo "Addting files that start with [UVWX]..."
-git add [UVWX]*jpg
-echo "Addting files that start with [YZ]..."
-git add [YZ]*jpg
+echo "Adding files that start with [ABCD]..."
+git add [ABCD]*jpg -v
+echo "Adding files that start with [EFGH]..."
+git add [EFGH]*jpg -v
+echo "Adding files that start with [IJKL]..."
+git add [IJKL]*jpg -v
+echo "Adding files that start with [MNOP]..."
+git add [MNOP]*jpg -v
+echo "Adding files that start with [QRST]..."
+git add [QRST]*jpg -v
+echo "Adding files that start with [UVWX]..."
+git add [UVWX]*jpg -v
+echo "Adding files that start with [YZ]..."
+git add [YZ]*jpg -v
 
-echo "Now starting the commit provess"
+echo ""
+echo "=====> Now starting the commit process <====="
+sleep 2
+echo ""
 
 echo "Commiting files that start with [ABCD]..."
 git commit -m "More updates"  [ABCD]*jpg -v
