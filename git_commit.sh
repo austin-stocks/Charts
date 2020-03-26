@@ -1,3 +1,12 @@
+echo ""
+echo "Showing the current status"
+git status
+sleep 2
+echo ""
+echo ""
+echo "=====> Now starting the add process <====="
+echo ""
+
 echo "Adding files that start with [ABCD]..."
 git add [ABCD]*jpg -v
 echo "Adding files that start with [EFGH]..."
