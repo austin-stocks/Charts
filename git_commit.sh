@@ -8,19 +8,19 @@ echo "=====> Now starting the add process <====="
 echo ""
 
 echo "Adding files that start with [ABCD]..."
-git add [ABCD]*jpg -v
+git add  ../Charts_With_Numbers/[ABCD]*jpg -v
 echo "Adding files that start with [EFGH]..."
-git add [EFGH]*jpg -v
+git add  ../Charts_With_Numbers/[EFGH]*jpg -v
 echo "Adding files that start with [IJKL]..."
-git add [IJKL]*jpg -v
+git add  ../Charts_With_Numbers/[IJKL]*jpg -v
 echo "Adding files that start with [MNOP]..."
-git add [MNOP]*jpg -v
+git add  ../Charts_With_Numbers/[MNOP]*jpg -v
 echo "Adding files that start with [QRST]..."
-git add [QRST]*jpg -v
+git add  ../Charts_With_Numbers/[QRST]*jpg -v
 echo "Adding files that start with [UVWX]..."
-git add [UVWX]*jpg -v
+git add  ../Charts_With_Numbers/[UVWX]*jpg -v
 echo "Adding files that start with [YZ]..."
-git add [YZ]*jpg -v
+git add  ../Charts_With_Numbers/[YZ]*jpg -v
 
 echo ""
 echo "=====> Now starting the commit process <====="
@@ -28,16 +28,16 @@ sleep 2
 echo ""
 
 echo "Commiting files that start with [ABCD]..."
-git commit -m "More updates"  [ABCD]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[ABCD]*jpg -v
 echo "Commiting files that start with [EFGH]..."
-git commit -m "More updates"  [EFGH]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[EFGH]*jpg -v
 echo "Commiting files that start with [IJKL]..."
-git commit -m "More updates"  [IJKL]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[IJKL]*jpg -v
 echo "Commiting files that start with [MNOP]..."
-git commit -m "More updates"  [MNOP]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[MNOP]*jpg -v
 echo "Commiting files that start with [QRST]..."
-git commit -m "More updates"  [QRST]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[QRST]*jpg -v
 echo "Commiting files that start with [UVWX]..."
-git commit -m "More updates"  [UVWX]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[UVWX]*jpg -v
 echo "Commiting files that start with [YZ]..."
-git commit -m "More updates"  [YZ]*jpg -v
+git commit -m "More updates"   ../Charts_With_Numbers/[YZ]*jpg -v
