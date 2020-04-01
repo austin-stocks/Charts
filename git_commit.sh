@@ -7,8 +7,10 @@ echo ""
 echo "=====> Now starting the add process <====="
 echo ""
 
-echo "Adding files that start with [ABCD]..."
-git  add Linear/Charts_With_Numbers/[ABCD]*jpg -v
+echo "Adding files that start with [AB]..."
+git  add Linear/Charts_With_Numbers/[AB]*jpg -v
+echo "Adding files that start with [CD]..."
+git  add Linear/Charts_With_Numbers/[CD]*jpg -v
 echo "Adding files that start with [EFGH]..."
 git  add Linear/Charts_With_Numbers/[EFGH]*jpg -v
 echo "Adding files that start with [IJKL]..."
@@ -27,8 +29,10 @@ echo "=====> Now starting the commit process <====="
 sleep 2
 echo ""
 
-echo "Commiting files that start with [ABCD]..."
-git commit -m "More Updates"  Linear/Charts_With_Numbers/[ABCD]*jpg -v
+echo "Commiting files that start with [AB]..."
+git commit -m "More Updates"  Linear/Charts_With_Numbers/[AB]*jpg -v
+echo "Commiting files that start with [CD]..."
+git commit -m "More Updates"  Linear/Charts_With_Numbers/[CD]*jpg -v
 echo "Commiting files that start with [EFGH]..."
 git commit -m "More Updates"  Linear/Charts_With_Numbers/[EFGH]*jpg -v
 echo "Commiting files that start with [IJKL]..."
