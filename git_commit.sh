@@ -13,9 +13,12 @@ git  add Linear/Charts_Without_Numbers/[A]*jpg -v
 echo "Adding files that start with [B]..."
 git  add Linear/Charts_With_Numbers/[B]*jpg -v
 git  add Linear/Charts_Without_Numbers/[B]*jpg -v
-echo "Adding files that start with [CD]..."
-git  add Linear/Charts_With_Numbers/[CD]*jpg -v
-git  add Linear/Charts_Without_Numbers/[CD]*jpg -v
+echo "Adding files that start with [C]..."
+git  add Linear/Charts_With_Numbers/[C]*jpg -v
+git  add Linear/Charts_Without_Numbers/[C]*jpg -v
+echo "Adding files that start with [D]..."
+git  add Linear/Charts_With_Numbers/[D]*jpg -v
+git  add Linear/Charts_Without_Numbers/[D]*jpg -v
 echo "Adding files that start with [EFGH]..."
 git  add Linear/Charts_With_Numbers/[EFGH]*jpg -v
 git  add Linear/Charts_Without_Numbers/[EFGH]*jpg -v
@@ -49,9 +52,12 @@ git commit -m "More Updates"  Linear/Charts_Without_Numbers/[A]*jpg -v
 echo "Commiting files that start with [B]..."
 git commit -m "More Updates"  Linear/Charts_With_Numbers/[B]*jpg -v
 git commit -m "More Updates"  Linear/Charts_Without_Numbers/[B]*jpg -v
-echo "Commiting files that start with [CD]..."
-git commit -m "More Updates"  Linear/Charts_With_Numbers/[CD]*jpg -v
-git commit -m "More Updates"  Linear/Charts_Without_Numbers/[CD]*jpg -v
+echo "Commiting files that start with [C]..."
+git commit -m "More Updates"  Linear/Charts_With_Numbers/[C]*jpg -v
+git commit -m "More Updates"  Linear/Charts_Without_Numbers/[C]*jpg -v
+echo "Commiting files that start with [D]..."
+git commit -m "More Updates"  Linear/Charts_With_Numbers/[D]*jpg -v
+git commit -m "More Updates"  Linear/Charts_Without_Numbers/[D]*jpg -v
 echo "Commiting files that start with [EFGH]..."
 git commit -m "More Updates"  Linear/Charts_With_Numbers/[EFGH]*jpg -v
 git commit -m "More Updates"  Linear/Charts_Without_Numbers/[EFGH]*jpg -v
