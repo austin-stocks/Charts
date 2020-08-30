@@ -31,9 +31,12 @@ git  add Linear/Charts_Without_Numbers/[MN]*jpg -v
 echo "Adding files that start with [OP]..."
 git  add Linear/Charts_With_Numbers/[OP]*jpg -v
 git  add Linear/Charts_Without_Numbers/[OP]*jpg -v
-echo "Adding files that start with [QRST]..."
-git  add Linear/Charts_With_Numbers/[QRST]*jpg -v
-git  add Linear/Charts_Without_Numbers/[QRST]*jpg -v
+echo "Adding files that start with [QR]..."
+git  add Linear/Charts_With_Numbers/[QR]*jpg -v
+git  add Linear/Charts_Without_Numbers/[QR]*jpg -v
+echo "Adding files that start with [ST]..."
+git  add Linear/Charts_With_Numbers/[ST]*jpg -v
+git  add Linear/Charts_Without_Numbers/[ST]*jpg -v
 echo "Adding files that start with [UVWX]..."
 git  add Linear/Charts_With_Numbers/[UVWX]*jpg -v
 git  add Linear/Charts_Without_Numbers/[UVWX]*jpg -v
@@ -70,9 +73,12 @@ git commit -m "More Updates"  Linear/Charts_Without_Numbers/[MN]*jpg -v
 echo "Commiting files that start with [OP]..."
 git commit -m "More Updates"  Linear/Charts_With_Numbers/[OP]*jpg -v
 git commit -m "More Updates"  Linear/Charts_Without_Numbers/[OP]*jpg -v
-echo "Commiting files that start with [QRST]..."
-git commit -m "More Updates"  Linear/Charts_With_Numbers/[QRST]*jpg -v
-git commit -m "More Updates"  Linear/Charts_Without_Numbers/[QRST]*jpg -v
+echo "Commiting files that start with [QR]..."
+git commit -m "More Updates"  Linear/Charts_With_Numbers/[QR]*jpg -v
+git commit -m "More Updates"  Linear/Charts_Without_Numbers/[QR]*jpg -v
+echo "Commiting files that start with [ST]..."
+git commit -m "More Updates"  Linear/Charts_With_Numbers/[ST]*jpg -v
+git commit -m "More Updates"  Linear/Charts_Without_Numbers/[ST]*jpg -v
 echo "Commiting files that start with [UVWX]..."
 git commit -m "More Updates"  Linear/Charts_With_Numbers/[UVWX]*jpg -v
 git commit -m "More Updates"  Linear/Charts_Without_Numbers/[UVWX]*jpg -v
